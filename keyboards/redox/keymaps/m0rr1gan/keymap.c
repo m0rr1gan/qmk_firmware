@@ -20,11 +20,13 @@ enum custom_keycodes {
 #define SYM_L   MO(_SYMB)
 
 #define KC_ALES LALT_T(KC_ESC)
+#define KC_ALMU LALT_T(KC_MUTE)
 
 #define KC_CTSP LCTL_T(KC_SPC)
 #define KC_CTDL RCTL_T(KC_DEL)
 
 #define KC_GUSP LGUI_T(KC_SPC)
+#define KC_GUES LGUI_T(KC_ESC)
 #define KC_GUDL RGUI_T(KC_DEL)
 
 #define KC_NAGR LT(_NAV, KC_GRV)
@@ -46,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_LSFT ,KC_Z    ,KC_X    ,KC_C    ,KC_V    ,KC_B    ,KC_ADPU ,KC_PGDN ,        KC_HOME ,KC_ADEN ,KC_N    ,KC_M    ,KC_COMM ,KC_DOT  ,KC_SLSH ,KC_RSFT ,
   //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
-     KC_VOLD ,KC_VOLU ,KC_MUTE ,KC_ALES ,     KC_GUSP ,    KC_BSPC ,KC_LCTL  ,        KC_ENT  ,KC_SPC  ,    KC_GUDL ,     KC_LEFT ,KC_DOWN ,KC_UP   ,KC_RGHT 
+     KC_PAUS ,KC_VOLD ,KC_VOLU ,KC_ALMU ,     KC_GUES ,    KC_BSPC ,KC_LCTL  ,        KC_ENT  ,KC_SPC  ,    KC_GUDL ,     KC_LEFT ,KC_DOWN ,KC_UP   ,KC_RGHT 
   //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
   ),
 
