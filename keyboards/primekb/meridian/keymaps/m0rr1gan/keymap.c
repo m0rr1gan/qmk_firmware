@@ -36,10 +36,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_LALT, KC_LSGN,                   KC_LGDL, KC_L1SP, KC_SPC,  KC_RGUI,                                     KC_RCTL, KC_LCAN, KC_RALT
     ),
     [1] = LAYOUT_split_bs_rshift(
-        RESET,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,  KC_BSPC,
-        _______, KC_END, KC_PGUP,  _______, _______, _______, _______, _______, KC_UP,   _______, KC_MPRV, KC_MPLY, KC_MNXT,          KC_DEL,
-        KC_CAPS, KC_HOME, KC_PGDN, KC_VOLD, KC_VOLU, KC_MUTE, _______, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______,                   _______,
-        _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,          _______, _______,
-        _______, _______, _______,          _______,          _______,          _______,                            _______, _______, _______
+                RESET,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_DEL,  KC_BSPC,
+                _______, KC_HOME, KC_PGUP, _______, _______, _______, _______, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,            KC_DEL,
+                KC_CAPS, KC_END,  KC_PGDN, KC_VOLD, KC_VOLU, KC_MUTE, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_NO,   KC_NO,                     _______,
+                _______, _______, _______, KC_MPRV, KC_MNXT, KC_MPLY, _______, KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_NO,            _______, _______,
+                _______, _______,                   _______, _______, _______, _______,                                     _______, _______, _______
     )
 };
