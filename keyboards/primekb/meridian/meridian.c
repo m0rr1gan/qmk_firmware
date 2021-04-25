@@ -65,7 +65,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
 layer_state_t layer_state_set_kb(layer_state_t state) {
    if (get_highest_layer(state) == 1) {
-      rgblight_setrgb_at(0, 255, 0, 1);
+      rgblight_setrgb_at(255, 255, 255, 1);
    } else {
       rgblight_setrgb_at(0, 0, 0, 1);
    }
