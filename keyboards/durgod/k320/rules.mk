@@ -2,7 +2,7 @@
 # Actually F070, but close enough
 MCU = STM32F072
 
-BOARD = ST_NUCLEO64_F070RB
+BOARD = DURGOD_STM32_F070
 
 # Do not put the microcontroller into power saving mode
 OPT_DEFS += -DNO_SUSPEND_POWER_DOWN
@@ -24,4 +24,4 @@ RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
 BLUETOOTH_ENABLE = no       # Enable Bluetooth
 AUDIO_ENABLE = no           # Audio output
 
-LAYOUTS = tkl_ansi
+LAYOUTS = tkl_ansi tkl_iso
